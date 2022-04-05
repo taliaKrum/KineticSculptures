@@ -33,8 +33,6 @@ Our Project:
 Some Links We Found Helpful:
  - https://lastminuteengineers.com/l293d-dc-motor-arduino-tutorial/
  -https://github.com/Freenove/Freenove_Ultimate_Starter_Kit_for_ESP32/blob/master/C/Sketches/Sketch_17.2_Control_Motor_by_L293D/Sketch_17.2_Control_Motor_by_L293D.ino
-- http://134.122.113.13/trk2123
-- http://134.122.113.13/trk2123/running
 - https://github.com/mbennett12/kinetic-sculpture-webapi/blob/main/example_HTTP_get.ino
 - https://gist.github.com/santolucito/9190ebd85c56f16d47ef32f72e5510cd 
  
