@@ -26,7 +26,7 @@ Our Project:
 ![IMG_3843](https://user-images.githubusercontent.com/69936719/161862637-c1e29a94-87e7-46bd-b766-a5de667cb356.jpeg)
 
 * Software: 
-  * We wrote a program that would work on both cores of the ESP32. One core would constantly check http://134.122.113.13/<YOUR UNI>/running. The sculpture should start moving when this endpoint returns true. This endpoint will return true for 30s when you press the button at http://165.227.76.232:3000/YOUR-UNI, or when we set all sculptures to run together.
+  * We wrote a program that would work on both cores of the ESP32. One core would constantly check http://134.122.113.13/YOUR UNI/running. The sculpture should start moving when this endpoint returns true. This endpoint will return true for 30s when you press the button at http://165.227.76.232:3000/YOUR-UNI, or when we set all sculptures to run together.
   * The other core dealt with running all the motors once the the endpoint returned true.
 
 
