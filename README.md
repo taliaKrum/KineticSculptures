@@ -25,5 +25,19 @@ Our Project:
 ![IMG_3840](https://user-images.githubusercontent.com/69936719/161862632-0bf43f81-7ee3-4b25-807b-91d9225ad538.jpeg)
 ![IMG_3843](https://user-images.githubusercontent.com/69936719/161862637-c1e29a94-87e7-46bd-b766-a5de667cb356.jpeg)
 
-Software: 
-* 
+* Software: 
+  * We wrote a program that would work on both cores of the ESP32. One core would constantly check http://134.122.113.13/<YOUR UNI>/running. The sculpture should start moving when this endpoint returns true. This endpoint will return true for 30s when you press the button at http://165.227.76.232:3000/YOUR-UNI, or when we set all sculptures to run together.
+  * The other core dealt with running all the motors once the the endpoint returned true.
+
+* Some Links We Found Helpful:
+ - https://lastminuteengineers.com/l293d-dc-motor-arduino-tutorial/
+ -https://github.com/Freenove/Freenove_Ultimate_Starter_Kit_for_ESP32/blob/master/C/Sketches/Sketch_17.2_Control_Motor_by_L293D/Sketch_17.2_Control_Motor_by_L293D.ino
+- http://134.122.113.13/trk2123
+- http://134.122.113.13/trk2123/running
+- https://github.com/mbennett12/kinetic-sculpture-webapi/blob/main/example_HTTP_get.ino
+- https://gist.github.com/santolucito/9190ebd85c56f16d47ef32f72e5510cd 
+ 
+3D printed figurines:
+ - https://www.thingiverse.com/thing:3088023/files 
+ - https://www.thingiverse.com/thing:1000629 
+ 
