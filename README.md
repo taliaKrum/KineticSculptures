@@ -1,4 +1,4 @@
-# KineticSculptures
+# Kinetic Sculptures
 Creative Embedded Systems Module 3
 
 Group Members: Talia Krumerman and Ariel Goldman 
