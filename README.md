@@ -29,7 +29,8 @@ Our Project:
   * We wrote a program that would work on both cores of the ESP32. One core would constantly check http://134.122.113.13/<YOUR UNI>/running. The sculpture should start moving when this endpoint returns true. This endpoint will return true for 30s when you press the button at http://165.227.76.232:3000/YOUR-UNI, or when we set all sculptures to run together.
   * The other core dealt with running all the motors once the the endpoint returned true.
 
-* Some Links We Found Helpful:
+
+Some Links We Found Helpful:
  - https://lastminuteengineers.com/l293d-dc-motor-arduino-tutorial/
  -https://github.com/Freenove/Freenove_Ultimate_Starter_Kit_for_ESP32/blob/master/C/Sketches/Sketch_17.2_Control_Motor_by_L293D/Sketch_17.2_Control_Motor_by_L293D.ino
 - http://134.122.113.13/trk2123
