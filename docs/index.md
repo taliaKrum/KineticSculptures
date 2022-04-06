@@ -27,5 +27,6 @@ General Steps:
 Our program uses both cores on the ESP32. One core is in charge of consistently checking the API endpoint to see if it returns true or false. Once the endpoint returns true, a flag is set and the other core runs the motors. We used the following example code to write our program.
   * DC MOTORS - https://github.com/Freenove/Freenove_Ultimate_Starter_Kit_for_ESP32/blob/master/C/Sketches/Sketch_17.2_Control_Motor_by_L293D/Sketch_17.2_Control_Motor_by_L293D.ino
   * STEPPER MOTORS - https://github.com/Freenove/Freenove_Ultimate_Starter_Kit_for_ESP32/blob/master/C/Sketches/Sketch_19.1_Drive_Stepper_Motor/Sketch_19.1_Drive_Stepper_Motor.ino
+  * API Endpoint and WiFi connection - https://github.com/mbennett12/kinetic-sculpture-webapi
 
 
