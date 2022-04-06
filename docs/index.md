@@ -18,12 +18,14 @@ General Steps:
 
 ## Hardware Setup:
 * We used the following guidelines in order to connect the motors:
-  * DC MOTORS - https://github.com/Freenove/Freenove_Ultimate_Starter_Kit_for_ESP32/blob/master/C/Sketches/Sketch_17.2_Control_Motor_by_L293D/Sketch_17.2_Control_Motor_by_L293D.ino
+  * DC MOTOR:
   * <img width="919" alt="Screen Shot 2022-04-05 at 8 50 56 PM" src="https://user-images.githubusercontent.com/69936719/161874224-c19bfa68-df5c-47ff-b6a9-6a6936c1d627.png">
-  * STEPPER MOTORS - https://github.com/Freenove/Freenove_Ultimate_Starter_Kit_for_ESP32/blob/master/C/Sketches/Sketch_19.1_Drive_Stepper_Motor/Sketch_19.1_Drive_Stepper_Motor.ino
+  * STEPPER MOTOR:
   * <img width="914" alt="Screen Shot 2022-04-05 at 8 51 27 PM" src="https://user-images.githubusercontent.com/69936719/161874287-05d4ec24-1e37-475e-b718-6d4df74aece0.png">
 
 ## Software Setup:
-
+Our program uses both cores on the ESP32. One core is in charge of consistently checking the API endpoint to see if it returns true or false. Once the endpoint returns true, a flag is set and the other core runs the motors. We used the following example code to write our program.
+  * DC MOTORS - https://github.com/Freenove/Freenove_Ultimate_Starter_Kit_for_ESP32/blob/master/C/Sketches/Sketch_17.2_Control_Motor_by_L293D/Sketch_17.2_Control_Motor_by_L293D.ino
+  * STEPPER MOTORS - https://github.com/Freenove/Freenove_Ultimate_Starter_Kit_for_ESP32/blob/master/C/Sketches/Sketch_19.1_Drive_Stepper_Motor/Sketch_19.1_Drive_Stepper_Motor.ino
 
 
