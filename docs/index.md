@@ -30,6 +30,12 @@ Our program uses both cores on the ESP32. One core is in charge of consistently 
   * API Endpoint and WiFi connection - <a href="url">https://github.com/mbennett12/kinetic-sculpture-webapi</a>
 
 ## Videos and Images:
+![IMG_3840](https://user-images.githubusercontent.com/69936719/161880412-63ad0f7f-9dba-4d47-bddf-8e703f440e2e.jpeg)
+
+![IMG_3847](https://user-images.githubusercontent.com/69936719/161880422-262d84e7-892a-4f1b-a6d0-c833d19bd853.jpeg)
+
+![Uploading IMG_3833.jpeg…]()
+
 
 
 
