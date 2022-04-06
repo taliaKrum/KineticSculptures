@@ -29,4 +29,7 @@ Our program uses both cores on the ESP32. One core is in charge of consistently 
   * STEPPER MOTORS - https://github.com/Freenove/Freenove_Ultimate_Starter_Kit_for_ESP32/blob/master/C/Sketches/Sketch_19.1_Drive_Stepper_Motor/Sketch_19.1_Drive_Stepper_Motor.ino
   * API Endpoint and WiFi connection - https://github.com/mbennett12/kinetic-sculpture-webapi
 
+## Videos and Images:
+
+
 
