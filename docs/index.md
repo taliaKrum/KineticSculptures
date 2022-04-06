@@ -34,7 +34,9 @@ Our program uses both cores on the ESP32. One core is in charge of consistently 
 
 ![IMG_3847](https://user-images.githubusercontent.com/69936719/161880422-262d84e7-892a-4f1b-a6d0-c833d19bd853.jpeg)
 
-![Uploading IMG_3833.jpeg…]()
+<a href="url">https://www.youtube.com/watch?v=wqlgZVqgmLw</a>
+
+
 
 
 
