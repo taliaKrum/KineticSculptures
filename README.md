@@ -1,5 +1,5 @@
 # Kinetic Sculptures
-Creative Embedded Systems Module 3
+Creative Embedded Systems Module 3 - Website: https://taliakrum.github.io/KineticSculptures/ 
 
 Group Members: Talia Krumerman and Ariel Goldman 
 
